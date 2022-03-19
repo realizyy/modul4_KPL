@@ -4,4 +4,4 @@ using modul4_1302204035;
 
 Console.WriteLine("Hello, World!");
 Penjumlahan<Double> count = new Penjumlahan<Double>();
-Console.WriteLine("Hasil Penjumlahan : " + count.tigaAngka(13,02,20));
+Console.WriteLine("Hasil Penjumlahan : " + count.JumlahTigaAngka(13,02,20));
