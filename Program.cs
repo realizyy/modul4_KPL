@@ -3,7 +3,6 @@
 using System;
 using modul4_1302204035;
 
-Console.WriteLine("Hello, World!");
 SimpleDataBase<int, DateTime> db = new SimpleDataBase<int, DateTime>();
 db.AddData(00, DateTime.Now);//Data 0
 db.AddData(13, DateTime.UtcNow);

@@ -21,7 +21,7 @@ public class SimpleDataBase<T,Date>
     {
         for (int i = 1; i < storedData.Count; i++)
         {
-            Console.WriteLine("Data " + i + " berisi : " + storedData[i] + ", yang disimpan pada waktu UTC:" + storedDate[i]);
+            Console.WriteLine("Data " + i + " berisi : " + storedData[i] + ",yang disimpan pada waktu UTC:" + storedDate[i]);
         }
     }
 }
